@@ -3,9 +3,9 @@
     children:
         vms:
           hosts:
-            172.30.1.201
-            172.30.1.202
-            172.30.1.203
+            host1.lab.local: 172.30.1.201
+            host2.lab.local: 172.30.1.202
+            host3.lab.local: 172.30.1.203
           vars:
             vcenter_address: demo-vcenter.zones-lab.com
             vcenter_user: "administrator@vcenter.lab.local"
