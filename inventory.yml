@@ -3,14 +3,15 @@
     children:
         vms:
           hosts:
-            host1.lab.local:
-            host2.lab.local:
+            172.30.1.201
+            172.30.1.202
+            172.30.1.203
           vars:
-            vcenter_address: vcenter.lab.local
-            vcenter_user: "automation@vcenter.lab.local"
-            vcenter_password: "Password"
+            vcenter_address: demo-vcenter.zones-lab.com
+            vcenter_user: "administrator@vcenter.lab.local"
+            vcenter_password: "DemoAdmin1!"
             vcenter_allow_unverified_ssl: true
-            vcenter_datacenter: "Datacenter"
-            vcenter_cluster: "Cluster"
+            vcenter_datacenter: "Demo Center"
+            vcenter_cluster: "ESX Cluster"
 
 
