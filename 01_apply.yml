@@ -8,10 +8,7 @@
   any_errors_fatal: "{{ any_errors_fatal | default(true) }}"
 
   roles:
-    - role: roles/debug 
-    ### ---------------------------------------------------------------------------
-    ### Terraform
-    ### ---------------------------------------------------------------------------
-    - { role: roles/terraform/config }  
-    - { role: roles/terraform/init }  
-    - { role: roles/terraform/apply } 
+    - role: 
+      - { role: roles/terraform/config }  
+      - { role: roles/terraform/init }  
+      - { role: roles/terraform/apply } 
