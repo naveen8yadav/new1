@@ -1,6 +1,6 @@
 ---
 - name: This sets up an httpd webserver
-  hosts: ICLTATST01_4225823f-a86b-4a67-343b-ed0933ce4d74
+  hosts: 172.30.1.215
   tasks:
   - name: Install apache packages 
     yum:
