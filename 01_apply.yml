@@ -8,7 +8,6 @@
   any_errors_fatal: "{{ any_errors_fatal | default(true) }}"
 
   roles:
-    - role: 
       - { role: roles/terraform/config }  
       - { role: roles/terraform/init }  
       - { role: roles/terraform/apply } 
